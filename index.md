@@ -7,3 +7,11 @@ I guess it is pretty obvious what is my desired next stage. So why do I want to 
 Additionally, I wish to be geographically free in my future endeavours. I reckon that developers have the best chances of getting such geographically-free jobs or businesses. I wish to be able to visit and stay any country at will without sacrificing income. 
 
 Finally, it is the only prospect with a realistic possibility of self-learning and building up of portfolio while I continue putting in 12-15 hours of driving everyday.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
