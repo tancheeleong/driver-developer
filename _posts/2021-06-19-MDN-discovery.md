@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The day I discovered MDN Web Docs"
+date: 2021-06-19
 ---
 
 ### Hello MDN
